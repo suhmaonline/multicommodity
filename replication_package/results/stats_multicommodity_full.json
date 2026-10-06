@@ -1,0 +1,298 @@
+{
+  "source": "results_multicommodity_small.json",
+  "per_cell": [
+    {
+      "commodity": "土豆",
+      "H": 7,
+      "n_origins": 302,
+      "mape_naive_pct": 1.2983,
+      "mape_chronos_pct": 1.5008,
+      "dm_sq_stat": 2.856559622996303,
+      "dm_sq_p": 0.00428259562169897,
+      "dm_abs_stat": 2.5840119597118423,
+      "dm_abs_p": 0.009765840786183588,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.07664785525429199,
+        0.3282577443079081
+      ],
+      "tost_delta": 0.12983205176832122,
+      "tost_mean_ape_diff": 0.20245279978110003,
+      "direction": "chronos_worse",
+      "verdict": "chronos_sig_worse"
+    },
+    {
+      "commodity": "土豆",
+      "H": 14,
+      "n_origins": 295,
+      "mape_naive_pct": 1.8579,
+      "mape_chronos_pct": 2.2424,
+      "dm_sq_stat": 3.1972079881848186,
+      "dm_sq_p": 0.0013876483119967808,
+      "dm_abs_stat": 3.70863003183707,
+      "dm_abs_p": 0.0002083836405131212,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.2131775350520587,
+        0.5559098006232572
+      ],
+      "tost_delta": 0.1857858051390009,
+      "tost_mean_ape_diff": 0.384543667837658,
+      "direction": "chronos_worse",
+      "verdict": "chronos_sig_worse"
+    },
+    {
+      "commodity": "大白菜",
+      "H": 7,
+      "n_origins": 302,
+      "mape_naive_pct": 3.4899,
+      "mape_chronos_pct": 3.9721,
+      "dm_sq_stat": 4.463465610413054,
+      "dm_sq_p": 8.064454669609589e-06,
+      "dm_abs_stat": 3.508481959831254,
+      "dm_abs_p": 0.00045067179798685686,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.2756315707671561,
+        0.6888992476606188
+      ],
+      "tost_delta": 0.34898739869170126,
+      "tost_mean_ape_diff": 0.48226540921388744,
+      "direction": "chronos_worse",
+      "verdict": "chronos_sig_worse"
+    },
+    {
+      "commodity": "大白菜",
+      "H": 14,
+      "n_origins": 295,
+      "mape_naive_pct": 6.1907,
+      "mape_chronos_pct": 6.8236,
+      "dm_sq_stat": 3.282672828402013,
+      "dm_sq_p": 0.0010282793166918047,
+      "dm_abs_stat": 3.3137592601350936,
+      "dm_abs_p": 0.0009205072469125053,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.34396274006699373,
+        0.9218022485911914
+      ],
+      "tost_delta": 0.6190743635321476,
+      "tost_mean_ape_diff": 0.6328824943290926,
+      "direction": "chronos_worse",
+      "verdict": "chronos_sig_worse"
+    },
+    {
+      "commodity": "大蒜",
+      "H": 7,
+      "n_origins": 302,
+      "mape_naive_pct": 1.238,
+      "mape_chronos_pct": 1.5622,
+      "dm_sq_stat": 5.916829633610911,
+      "dm_sq_p": 3.2820635098573803e-09,
+      "dm_abs_stat": 6.726196906958012,
+      "dm_abs_p": 1.7415402453480056e-11,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.2426010421769923,
+        0.40584927263286596
+      ],
+      "tost_delta": 0.12379820544061833,
+      "tost_mean_ape_diff": 0.32422515740492913,
+      "direction": "chronos_worse",
+      "verdict": "chronos_sig_worse"
+    },
+    {
+      "commodity": "大蒜",
+      "H": 14,
+      "n_origins": 295,
+      "mape_naive_pct": 1.865,
+      "mape_chronos_pct": 2.0233,
+      "dm_sq_stat": 2.212408902415844,
+      "dm_sq_p": 0.026938424326074184,
+      "dm_abs_stat": 1.9446960923420884,
+      "dm_abs_p": 0.05181156613685722,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.017811251548414092,
+        0.29879307104358
+      ],
+      "tost_delta": 0.18649983329216274,
+      "tost_mean_ape_diff": 0.15830216129599706,
+      "direction": "chronos_worse",
+      "verdict": "chronos_sig_worse"
+    },
+    {
+      "commodity": "洋葱",
+      "H": 7,
+      "n_origins": 302,
+      "mape_naive_pct": 2.8959,
+      "mape_chronos_pct": 3.2916,
+      "dm_sq_stat": 2.202393893141123,
+      "dm_sq_p": 0.027637496884709734,
+      "dm_abs_stat": 2.1616242698777857,
+      "dm_abs_p": 0.030647149180139888,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.09688468492146257,
+        0.6944566024281107
+      ],
+      "tost_delta": 0.28959064879930024,
+      "tost_mean_ape_diff": 0.39567064367478666,
+      "direction": "chronos_worse",
+      "verdict": "chronos_sig_worse"
+    },
+    {
+      "commodity": "洋葱",
+      "H": 14,
+      "n_origins": 295,
+      "mape_naive_pct": 3.6345,
+      "mape_chronos_pct": 4.0333,
+      "dm_sq_stat": 1.729705860212353,
+      "dm_sq_p": 0.08368284115750058,
+      "dm_abs_stat": 2.2365744393215046,
+      "dm_abs_p": 0.025314167064878212,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.1142266602754019,
+        0.6833897276317498
+      ],
+      "tost_delta": 0.36344526130865307,
+      "tost_mean_ape_diff": 0.39880819395357586,
+      "direction": "chronos_worse",
+      "verdict": "no_sig_diff"
+    },
+    {
+      "commodity": "生姜",
+      "H": 7,
+      "n_origins": 302,
+      "mape_naive_pct": 1.1765,
+      "mape_chronos_pct": 1.4108,
+      "dm_sq_stat": 2.7886389033024717,
+      "dm_sq_p": 0.0052930044095393924,
+      "dm_abs_stat": 3.8332209689742505,
+      "dm_abs_p": 0.0001264762472716896,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.1345860080753667,
+        0.33406102143311545
+      ],
+      "tost_delta": 0.1176488699549022,
+      "tost_mean_ape_diff": 0.23432351475424107,
+      "direction": "chronos_worse",
+      "verdict": "chronos_sig_worse"
+    },
+    {
+      "commodity": "生姜",
+      "H": 14,
+      "n_origins": 295,
+      "mape_naive_pct": 1.6562,
+      "mape_chronos_pct": 1.8764,
+      "dm_sq_stat": 2.9181302254558834,
+      "dm_sq_p": 0.0035213725265703655,
+      "dm_abs_stat": 3.019574153038949,
+      "dm_abs_p": 0.002531303194719392,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.09432620476527714,
+        0.34600021776396805
+      ],
+      "tost_delta": 0.16562028504871273,
+      "tost_mean_ape_diff": 0.2201632112646226,
+      "direction": "chronos_worse",
+      "verdict": "chronos_sig_worse"
+    },
+    {
+      "commodity": "白萝卜",
+      "H": 7,
+      "n_origins": 302,
+      "mape_naive_pct": 2.9084,
+      "mape_chronos_pct": 3.1689,
+      "dm_sq_stat": 3.178886049086485,
+      "dm_sq_p": 0.0014784219940038312,
+      "dm_abs_stat": 2.5575772359465314,
+      "dm_abs_p": 0.01054041481376311,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.09166626569127859,
+        0.4292576300735097
+      ],
+      "tost_delta": 0.29084230050265564,
+      "tost_mean_ape_diff": 0.26046194788239413,
+      "direction": "chronos_worse",
+      "verdict": "chronos_sig_worse"
+    },
+    {
+      "commodity": "白萝卜",
+      "H": 14,
+      "n_origins": 295,
+      "mape_naive_pct": 4.8267,
+      "mape_chronos_pct": 5.4771,
+      "dm_sq_stat": 3.641474348828272,
+      "dm_sq_p": 0.0002710811390156387,
+      "dm_abs_stat": 3.6401434265378567,
+      "dm_abs_p": 0.0002724862162972741,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.3576904037182485,
+        0.9430288846123274
+      ],
+      "tost_delta": 0.4826704175674511,
+      "tost_mean_ape_diff": 0.6503596441652879,
+      "direction": "chronos_worse",
+      "verdict": "chronos_sig_worse"
+    },
+    {
+      "commodity": "青椒",
+      "H": 7,
+      "n_origins": 302,
+      "mape_naive_pct": 3.3675,
+      "mape_chronos_pct": 3.6864,
+      "dm_sq_stat": 1.9765257036520631,
+      "dm_sq_p": 0.04809526752758586,
+      "dm_abs_stat": 1.668963461336052,
+      "dm_abs_p": 0.09512462132099775,
+      "tost_equiv_within_10pct_naive_mape": false,
+      "tost_ci90_ape_diff": [
+        0.04973012640740232,
+        0.5882180143786055
+      ],
+      "tost_delta": 0.3367472968389469,
+      "tost_mean_ape_diff": 0.3189740703930039,
+      "direction": "chronos_worse",
+      "verdict": "chronos_sig_worse"
+    },
+    {
+      "commodity": "青椒",
+      "H": 14,
+      "n_origins": 295,
+      "mape_naive_pct": 6.1539,
+      "mape_chronos_pct": 6.2803,
+      "dm_sq_stat": 1.9357814543853624,
+      "dm_sq_p": 0.05289447324596086,
+      "dm_abs_stat": 0.5758595044775979,
+      "dm_abs_p": 0.5647101492828823,
+      "tost_equiv_within_10pct_naive_mape": true,
+      "tost_ci90_ape_diff": [
+        -0.27984696679701276,
+        0.5326279799510951
+      ],
+      "tost_delta": 0.6153934992223543,
+      "tost_mean_ape_diff": 0.12639050657704115,
+      "direction": "chronos_worse",
+      "verdict": "no_sig_diff"
+    }
+  ],
+  "joint": {
+    "n_cells": 14,
+    "chronos_better_cells": 0,
+    "chronos_worse_cells": 14,
+    "tie_cells": 0,
+    "verdict_sig_better": 0,
+    "verdict_sig_worse": 12,
+    "verdict_no_sig_diff": 2,
+    "binomial_two_sided_p": 0.0001220703125,
+    "fisher_combined_dm_sq_p": 0.0,
+    "cells_equivalent_by_tost": 1,
+    "cells_equivalent_rate": 0.07142857142857142
+  }
+}

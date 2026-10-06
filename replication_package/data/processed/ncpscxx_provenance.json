@@ -1,0 +1,32 @@
+{
+  "source_system": "农业农村部重点农产品市场信息平台",
+  "source_url": "https://ncpscxx.moa.gov.cn",
+  "interface": "批发价格接口（全国批发市场每日上报价）",
+  "retrieved_at": "2026-10-06T10:26:45+08:00",
+  "price_definition": "每个品种当日所有上报批发市场的 PRICE_MARKET 简单平均，作为全国批发日均价（自聚合近似口径，非官方直接发布的全国均价）",
+  "unit": "CNY/kg",
+  "market_level": "national wholesale average (self-aggregated)",
+  "geography": "China",
+  "date_range": [
+    "2023-08-01",
+    "2026-10-05"
+  ],
+  "commodities": [
+    "土豆",
+    "大白菜",
+    "大蒜",
+    "洋葱",
+    "生姜",
+    "白萝卜",
+    "青椒"
+  ],
+  "n_calendar_days": 1162,
+  "raw_file": "data\\raw\\ncpscxx\\农产品批发价格_全国日均_2023-08-01至2026-10-05.csv",
+  "raw_sha256": "39d42b4501c7134c449ff92093e64b89d06a9837f620dcff9d054f85a228024e",
+  "processed_long": "data/processed/agri_daily_prices_long.csv",
+  "processed_wide": "data/processed/agri_daily_prices_wide.csv",
+  "exclusions": "未混入地方零售价、单市场价格、月度供需表、商业网站整理价、产地地头价。",
+  "missing_value_policy": "Observed values only are used as ground truth; missing calendar days retained as missing, not model-imputed.",
+  "reconciliation_with_B_features_csv": "ncpscxx 大蒜 vs features.csv 大蒜 Pearson r=0.9996, mean abs diff 0.025 CNY/kg, max abs diff 0.204 CNY/kg over 1126 common dates; same series under different aggregation.",
+  "note_for_user": "retrieved_at 取原始文件修改时间（可观察事实）；如需精确抓取时间戳请确认。"
+}

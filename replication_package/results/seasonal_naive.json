@@ -1,0 +1,77 @@
+{
+  "config": {
+    "seasonal_naive": "y_hat[t+H] = price[t+H-7] (period=7)"
+  },
+  "commodities": {
+    "土豆": {
+      "h7": {
+        "n": 302,
+        "mape_seasonal_naive_pct": 1.2983
+      },
+      "h14": {
+        "n": 295,
+        "mape_seasonal_naive_pct": 1.2929
+      }
+    },
+    "大白菜": {
+      "h7": {
+        "n": 302,
+        "mape_seasonal_naive_pct": 3.4899
+      },
+      "h14": {
+        "n": 295,
+        "mape_seasonal_naive_pct": 3.4742
+      }
+    },
+    "大蒜": {
+      "h7": {
+        "n": 302,
+        "mape_seasonal_naive_pct": 1.238
+      },
+      "h14": {
+        "n": 295,
+        "mape_seasonal_naive_pct": 1.2458
+      }
+    },
+    "洋葱": {
+      "h7": {
+        "n": 302,
+        "mape_seasonal_naive_pct": 2.8959
+      },
+      "h14": {
+        "n": 295,
+        "mape_seasonal_naive_pct": 2.8806
+      }
+    },
+    "生姜": {
+      "h7": {
+        "n": 302,
+        "mape_seasonal_naive_pct": 1.1765
+      },
+      "h14": {
+        "n": 295,
+        "mape_seasonal_naive_pct": 1.1812
+      }
+    },
+    "白萝卜": {
+      "h7": {
+        "n": 302,
+        "mape_seasonal_naive_pct": 2.9084
+      },
+      "h14": {
+        "n": 295,
+        "mape_seasonal_naive_pct": 2.9456
+      }
+    },
+    "青椒": {
+      "h7": {
+        "n": 302,
+        "mape_seasonal_naive_pct": 3.3675
+      },
+      "h14": {
+        "n": 295,
+        "mape_seasonal_naive_pct": 3.3903
+      }
+    }
+  }
+}

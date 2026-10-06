@@ -1,0 +1,6 @@
+# C 方案（C-Garlic-Multi）复现依赖
+numpy
+scipy
+torch
+chronos-forecasting   # PyPI 包名；import 时为 `chronos`
+statsmodels
